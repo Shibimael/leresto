@@ -150,8 +150,24 @@ a{
     width: 300px;
     height: 300px;
   }
-  
-  
+  /*----------------texte-----------------------*/
+  p{    
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 /*----------------footer-----------------------*/
 .footer {
     background: #d8b00f;
