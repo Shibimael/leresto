@@ -181,7 +181,7 @@ a{
 }
 .form-control:focus {
     box-shadow: inherit;
-    border: #fff solid 2px !important;
+    border: #fff solid 2px ;
 }
 .textarea {
     border: #fff solid 2px;
